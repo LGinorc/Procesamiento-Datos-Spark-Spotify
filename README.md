@@ -19,8 +19,8 @@ Si tienes tu máquina virtual con Ubuntu, Spark y Kafka listos, así es como se 
 1. Para ver el Análisis Batch:
 Primero bajas el archivo de datos y luego corres el script:
 
-"wget https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-21/spotify_songs.csv -O spotify.csv
-/opt/spark/bin/spark-submit analisis_spotify.py"
+wget https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-21/spotify_songs.csv -O spotify.csv
+/opt/spark/bin/spark-submit analisis_spotify.py
 
 2. Para ver el Streaming en vivo:
 Asegúrate de tener Zookeeper y Kafka prendidos. Crea el topic llamado spotify_streams:
